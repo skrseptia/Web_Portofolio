@@ -1,0 +1,412 @@
+h2 {
+  color: #ffa600dc;
+}
+/* navbar */
+nav {
+  background-color: #313236;
+}
+
+.nav-item {
+  color: white;
+  padding: 10px;
+}
+
+/* home */
+#home {
+  height: 680px;
+}
+.home-content {
+  display: flex;
+}
+.home-left {
+  width: 30%;
+  height: 680px;
+  background-color: #ffa600dc;
+}
+.home-right {
+  width: 70%;
+  height: 680px;
+  background-color: #202124;
+}
+#home img {
+  position: absolute;
+  margin-top: -33px;
+}
+.home-title1,
+.home-title3 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.home-title2 {
+  color: #ffa600dc;
+  font-size: 50px;
+}
+
+.section-title {
+  width: 500px;
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+/* about */
+#about {
+  background: #292a2e;
+  height: 550px;
+  color: #fff;
+  padding: 70px 50px 50px 50px;
+}
+.about-content {
+  display: flex;
+}
+.left-about {
+  width: 60%;
+}
+.right-about {
+  width: 40%;
+}
+.left-about,
+.righ-about {
+  margin: 40px 80px;
+}
+.frame {
+  width: 250px;
+  height: 300px;
+  border: 5px solid #ffa60d;
+}
+#about img {
+  width: 250px;
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 55px;
+}
+#about h2 {
+  margin-bottom: 50px;
+}
+
+/*  experience*/
+#experience {
+  background: #292a2e;
+  height: 350px;
+  color: #fff;
+  padding: 70px 50px 50px 50px;
+}
+
+#experience h2 {
+  margin-bottom: 50px;
+}
+th {
+  width: 400px;
+}
+/* education */
+#education {
+  background: #292a2e;
+  height: 575px;
+  color: #fff;
+  padding: 70px 50px 50px 50px;
+}
+.card {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.education-card {
+  padding-top: 25px;
+}
+.font-primary {
+  color: #ffa600;
+}
+/* creations */
+#creations {
+  background: #292a2e;
+  height: 600px;
+  color: #fff;
+  padding: 70px 50px 50px 50px;
+}
+#creations h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h2 {
+  color: #ffa600dc;
+}
+
+.col {
+  height: 350px;
+  padding: 20px;
+  background-color: #37383d;
+  margin: 8px;
+  border-radius: 30px;
+}
+.row {
+  margin-left: 100px;
+  margin-right: 300px;
+}
+
+.bookshelf {
+  padding: 10px;
+}
+.simple-website {
+  padding: 10px;
+}
+.detail-creation {
+  height: 200px;
+}
+
+/* contact */
+#contact {
+  height: 750px;
+  background: #292a2e;
+  color: #fff;
+  padding-top: 80px;
+}
+#contact h5 {
+  color: #ffa600;
+}
+.contact-content {
+  display: flex;
+  margin: 20px;
+}
+
+.left-contact {
+  width: 50%;
+  padding: 100px;
+}
+
+.right-contact {
+  width: 50%;
+}
+
+.form-contact {
+  width: 400px;
+  height: 550px;
+  background: #fff;
+  border-radius: 20px;
+  color: #ffa600;
+  padding-top: 10px;
+}
+form {
+  padding: 15px;
+  color: black;
+}
+
+/* footer */
+footer {
+  background-color: #313236;
+  color: #fff;
+  padding: 25px;
+}
+
+.sosmed ul li {
+  display: inline;
+  margin: 10px;
+}
+/*Responsive*/
+@media screen and (max-width: 991.98px) {
+  #home {
+    height: 450px;
+  }
+  .home-left {
+    height: 450px;
+  }
+  .home-right {
+    height: 450px;
+  }
+  #home img {
+    width: 575px;
+    margin-top: 20px;
+    margin-left: -50px;
+  }
+  .home-title1,
+  .home-title3 {
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .home-title2 {
+    color: #ffa600dc;
+    font-size: 30px;
+  }
+
+  .section-title {
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+  }
+  .frame {
+    width: 180px;
+    height: 230px;
+    border: 5px solid #ffa60d;
+    margin-left: -10px;
+  }
+  #about img {
+    width: 180px;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 35px;
+  }
+  .left-about,
+  .righ-about {
+    margin: 0px 35px;
+  }
+  #experience {
+    height: 450px;
+  }
+  .card {
+    margin-top: 50px;
+    margin: 20px 70px;
+  }
+  .education-card {
+    padding-top: 25px;
+  }
+  .row {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #contact {
+    height: 650px;
+    padding-top: 50px;
+  }
+  .left-contact {
+    width: 40%;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .right-contact {
+    width: 60%;
+  }
+
+  .form-contact {
+    margin: 0px 5px;
+    width: 350px;
+    height: 500px;
+    background: #fff;
+    border-radius: 20px;
+    color: #ffa600;
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section-title {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 150px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #home {
+    height: 350px;
+  }
+  .home-left {
+    height: 350px;
+  }
+  .home-right {
+    height: 350px;
+  }
+  #home img {
+    width: 350px;
+    margin-top: 88px;
+    margin-left: -50px;
+  }
+  .home-title1,
+  .home-title3 {
+    color: #fff;
+    font-size: 0.75rem;
+  }
+
+  .home-title2 {
+    color: #ffa600dc;
+    font-size: 20px;
+  }
+
+  .section-title {
+    width: 160px;
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  .btn-start {
+    font-size: 10px;
+    padding: 5px;
+  }
+  #about {
+    height: 820px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .about-content {
+    display: block;
+  }
+  .left-about {
+    margin: auto;
+  }
+  .left-about {
+    width: 90%;
+    padding-top: 80px;
+  }
+  .frame {
+    width: 180px;
+    height: 220px;
+    border: 5px solid #ffa60d;
+  }
+  #about img {
+    width: 180px;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 35px;
+  }
+  #experience {
+    height: 550px;
+  }
+  th {
+    width: 100px;
+  }
+  .card {
+    margin-top: 50px;
+    margin: 25px 10px;
+  }
+  .education-card {
+    padding-top: 25px;
+  }
+  #creations {
+    height: 1000px;
+  }
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #contact {
+    height: 1200px;
+  }
+  #contact h2 {
+    padding-left: 50px;
+  }
+  .contact-content {
+    display: block;
+  }
+  .left-contact {
+    width: 100%;
+    padding: 50px;
+    margin-left: 20px;
+  }
+
+  .right-contact {
+    width: 100%;
+  }
+
+  .form-contact {
+    margin: 0px 5px;
+    width: 320px;
+    height: 500px;
+    background: #fff;
+    border-radius: 20px;
+    color: #ffa600;
+    padding-top: 5px;
+  }
+  form {
+    padding: 5px;
+    color: black;
+  }
+}
