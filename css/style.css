@@ -52,7 +52,7 @@ nav {
 /* about */
 #about {
   background: #292a2e;
-  height: 550px;
+  height: 650px;
   color: #fff;
   padding: 70px 50px 50px 50px;
 }
@@ -87,7 +87,7 @@ nav {
 /*  experience*/
 #experience {
   background: #292a2e;
-  height: 350px;
+  height: 400px;
   color: #fff;
   padding: 70px 50px 50px 50px;
 }
@@ -154,7 +154,7 @@ h2 {
 
 /* contact */
 #contact {
-  height: 750px;
+  height: 775px;
   background: #292a2e;
   color: #fff;
   padding-top: 80px;
@@ -249,7 +249,7 @@ footer {
     margin: 0px 35px;
   }
   #experience {
-    height: 450px;
+    height: 500px;
   }
   .card {
     margin-top: 50px;
@@ -264,7 +264,7 @@ footer {
   }
 
   #contact {
-    height: 650px;
+    height: 675px;
     padding-top: 50px;
   }
   .left-contact {
@@ -332,7 +332,7 @@ footer {
     padding: 5px;
   }
   #about {
-    height: 820px;
+    height: 870px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -358,7 +358,7 @@ footer {
     margin-left: 35px;
   }
   #experience {
-    height: 625px;
+    height: 675px;
   }
   th {
     width: 100px;
